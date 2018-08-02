@@ -25,37 +25,37 @@ Venues has many Bands, through Concerts
 
 Build the following methods on the Band class
 
-<!-- + Band.all
-  + returns an array of all bands -->
-<!-- + Band#concerts
-  + returns a list of concerts at a specific band -->
-<!-- + Band#venues
-  + should return a list of venues for a specific band -->
-<!-- + Band#add_concert(date, attendance, venue)
-  + given a date, an attendance, and a venue, creates a new concert and associates it with that band and venue -->
-<!-- + Band#update_attendance(concert, number)
-  + changes the attendance for a concert given a number (only if the concert belongs to the band) -->
-<!-- + Band#average_sale_rate -->
++ Band.all
+  + returns an array of all bands
++ Band#concerts
+  + returns a list of concerts at a specific band
++ Band#venues
+  + should return a list of venues for a specific band
++ Band#add_concert(date, attendance, venue)
+  + given a date, an attendance, and a venue, creates a new concert and associates it with that band and venue
++ Band#update_attendance(concert, number)
+  + changes the attendance for a concert given a number (only if the concert belongs to the band)
++ Band#average_sale_rate
 
 Build out the following methods on the Venue class
 
-<!-- + Venue.all
-  + returns an array of all venues -->
-<!-- + Venue.find_by_location(location)
-  + given a string of a location, returns all venues that match that location -->
-<!-- + Venue#concert_dates
-  + returns a list of the concert dates for a specific venue -->
-<!-- + Venue#bands
-  + returns a list of bands for a specific venue -->
-<!-- + Venue#average_attendance
-  + returns the average attendance for that specific venue -->
++ Venue.all
+  + returns an array of all venues
++ Venue.find_by_location(location)
+  + given a string of a location, returns all venues that match that location
++ Venue#concert_dates
+  + returns a list of the concert dates for a specific venue
++ Venue#bands
+  + returns a list of bands for a specific venue
++ Venue#average_attendance
+  + returns the average attendance for that specific venue
 
 Build out the following methods on the Concert class
 
-<!-- + Concert.all
-  + returns an array of all concerts -->
-<!-- + Concert#band
++ Concert.all
+  + returns an array of all concerts
++ Concert#band
   + returns the band for that given concert
 + Concert#venue
-  + returns the venue for that given concert -->
-<!-- + Attendance should be defaulted to nil -->
+  + returns the venue for that given concert
++ Attendance should be defaulted to nil
